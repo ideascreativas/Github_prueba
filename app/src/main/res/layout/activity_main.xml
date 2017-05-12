@@ -12,7 +12,19 @@
     tools:context="ideascreativas.github.MainActivity">
 
 
+ <GridView
+        android:id="@+id/gridviewtripguatemala"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:numColumns="auto_fit"
+        android:horizontalSpacing="5dp"
+        android:verticalSpacing="5dp"
 
+        />
 
 
 </RelativeLayout>
